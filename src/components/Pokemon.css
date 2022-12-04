@@ -1,0 +1,39 @@
+
+
+.poke-card{
+    position: relative;
+    max-width: 30%;
+    min-width: 600px;
+    margin: 50px auto 10px;
+    font-size: 112px;
+    color: #ffDE00;
+    -webkit-text-stroke: 5px #3b4cca;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.container{
+    min-height: 600px;
+    max-height: 100%;
+    margin-bottom: 15px;
+}
+
+
+.poke-card p{
+    position: absolute;
+    right: 10px;
+    bottom: -22px;
+    transform: rotate(-10deg);
+}
+
+.show{
+    visibility: hidden;
+}
+
+
+img{
+    width: 80%;
+    color: black;
+    
+    
+}
